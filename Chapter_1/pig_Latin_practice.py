@@ -1,6 +1,8 @@
 """Turn a word into its Pig Latin equivalent."""
 import sys
 
+# test message
+
 VOWELS = 'aeiouy'
 
 while True:
