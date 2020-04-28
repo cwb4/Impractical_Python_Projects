@@ -44,7 +44,7 @@ def main():
         lastName = random.choice(last)
 
         print("\n\n")
-        print  ("{} {}".format(firstName, lastName), file=sys.stderr)
+        print  ("{} {}".format(firstName, lastName))
         print("\n\n")
 
         try_again = input("\n\nTry again? (Press Enter else n to quit)\n ")
